@@ -1,0 +1,48 @@
+version: 2
+updates:
+  - package-ecosystem: "nuget"
+    registries:
+      - nuget
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 40
+    groups:
+      EventHubs:
+        patterns:
+          - "Azure.Messaging.EventHubs*"
+      DotNet:
+        patterns:
+          - "Microsoft.Extensions.*"
+          - "Microsoft.AspNetCore.*"
+        exclude-patterns:
+          - "Microsoft.AspNetCore.Mvc.Testing"
+          - "Microsoft.Extensions.Http.Polly"
+      Polly:
+        patterns:
+          - "Polly*"
+          - "Microsoft.Extensions.Http.Polly"
+      Prometheus:
+        patterns:
+          - "prometheus-net*"
+      Serilog:
+        patterns:
+          - "Serilog*"
+      TestDependencies:
+        patterns:
+          - "Bogus"
+          - "coverlet.collector"
+          - "JunitXml.TestLogger"
+          - "NSubstitute"
+          - "Microsoft.AspNetCore.Mvc.Testing"
+          - "Microsoft.NET.Test.Sdk"
+          - "Respawn"
+          - "Shouldly"
+          - "Testcontainer*"
+          - "xunit*"
+    ignore:
+      - dependency-name: "csharpier"
+registries:
+  nuget:
+    type: nuget-feed
+    url: https://api.nuget.org/v3/index.json

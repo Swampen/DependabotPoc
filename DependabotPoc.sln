@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependabotPoc", "src\DependabotPoc\DependabotPoc.csproj", "{EACFC89A-96EE-4762-A26B-1C4133E4FFE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectTests", "tests\TestProjectTests\TestProjectTests.csproj", "{0C6004F0-55DF-4ED5-BFB6-C91F2FAF511B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EACFC89A-96EE-4762-A26B-1C4133E4FFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EACFC89A-96EE-4762-A26B-1C4133E4FFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EACFC89A-96EE-4762-A26B-1C4133E4FFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EACFC89A-96EE-4762-A26B-1C4133E4FFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C6004F0-55DF-4ED5-BFB6-C91F2FAF511B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6004F0-55DF-4ED5-BFB6-C91F2FAF511B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6004F0-55DF-4ED5-BFB6-C91F2FAF511B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6004F0-55DF-4ED5-BFB6-C91F2FAF511B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
