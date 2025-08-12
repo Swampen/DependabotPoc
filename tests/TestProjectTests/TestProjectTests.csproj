@@ -1,11 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <ItemGroup>
+      <PackageReference Include="Azure.Identity" VersionOverride="1.11.4" />
         <PackageReference Include="Bogus"/>
         <PackageReference Include="JunitXml.TestLogger"/>
+    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" />
         <PackageReference Include="Respawn"/>
         <PackageReference Include="Shouldly"/>
+    <PackageReference Include="System.Drawing.Common" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" />
         <PackageReference Include="Testcontainers.MsSql"/>
         <PackageReference Include="xunit"/>
         <PackageReference Include="xunit.runner.visualstudio">
