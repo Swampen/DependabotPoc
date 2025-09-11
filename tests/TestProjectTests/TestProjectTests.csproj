@@ -15,6 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="System.Drawing.Common" />
         <ProjectReference Include="..\..\src\DependabotPoc\DependabotPoc.csproj" />
     </ItemGroup>
 </Project>
