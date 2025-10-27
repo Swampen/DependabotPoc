@@ -9,8 +9,11 @@
         <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer"/>
         <PackageReference Include="Microsoft.Extensions.Configuration.Json"/>
         <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions"/>
-        <PackageReference Include="Microsoft.Extensions.Http.Polly"/>
         <PackageReference Include="Ulid" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Infra\Infra.csproj" />
     </ItemGroup>
 
 </Project>
