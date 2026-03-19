@@ -6,7 +6,6 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    open-pull-requests-limit: 0
     groups:
       EventHubs:
         patterns:
@@ -15,13 +14,6 @@ updates:
         patterns:
           - "Microsoft.Extensions.*"
           - "Microsoft.AspNetCore.*"
-        exclude-patterns:
-          - "Microsoft.AspNetCore.Mvc.Testing"
-          - "Microsoft.Extensions.Http.Polly"
-      Polly:
-        patterns:
-          - "Polly*"
-          - "Microsoft.Extensions.Http.Polly"
       Prometheus:
         patterns:
           - "prometheus-net*"
@@ -34,7 +26,6 @@ updates:
           - "coverlet.collector"
           - "JunitXml.TestLogger"
           - "NSubstitute"
-          - "Microsoft.AspNetCore.Mvc.Testing"
           - "Microsoft.NET.Test.Sdk"
           - "Respawn"
           - "Shouldly"
